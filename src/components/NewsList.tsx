@@ -1,14 +1,5 @@
 import React from "react";
 
-interface NewsArticle {
-  id: string;
-  title: string;
-  description: string;
-  url: string;
-  image: string;
-  published: string;
-}
-
 const NewsList: React.FC = () => {
   const articles = Array.from({ length: 30 }, (_, index) => ({
     id: `${index + 1}`,

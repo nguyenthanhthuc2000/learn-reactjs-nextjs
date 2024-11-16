@@ -1,4 +1,3 @@
-import dynamic from 'next/dynamic';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import LazyLoadComponent from '@/components/LazyLoadComponent';

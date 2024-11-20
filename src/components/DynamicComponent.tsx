@@ -12,7 +12,7 @@ const DynamicComponent: React.FC = () => {
       <div
         key={index}
         className="relative overflow-hidden rounded-lg shadow-lg bg-gray-400"
-        style={{ width: '320px', height: '200px' }} // Kích thước cố định
+        style={{ width: '275px', height: '200px' }} // Kích thước cố định
       >
         <img
           src={imageUrl}
